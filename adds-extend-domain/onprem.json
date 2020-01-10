@@ -57,7 +57,7 @@
             },            
             "osType": "windows",
             "adminUsername": "testuser",
-            "adminPassword": "",
+            "adminPassword": "P@ssw0rd",
             "nics": [
               {
                 "subnetName": "mgmt",
@@ -75,7 +75,7 @@
             "namePrefix": "ad",
             "size": "Standard_DS3_v2",
             "adminUsername": "testadminuser",
-            "adminPassword": "",
+            "adminPassword": "P@ssw0rd",
             "virtualNetwork": {
               "name": "onpremise-vnet"
             },
@@ -134,11 +134,11 @@
                       "ReplicationFrequency": 10,
                       "AdminCreds": {
                         "UserName": "testadminuser",
-                        "Password": ""
+                        "Password": "P@ssw0rd"
                       },
                       "SafeModeAdminCreds": {
                         "UserName": "testsafeadminuser",
-                        "Password": ""
+                        "Password": "P@ssw0rd"
                       }
                     }
                   }
